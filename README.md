@@ -1,6 +1,7 @@
 # Direct Quest Loader
 # Quest Binary Loader details
-This loads an ELF Binary of a guest operating system (Quest) onto that system using Linux, using shared memory (shmcomm).
+This loads an ELF Binary of a guest operating system (Quest) onto that system using Linux, using shared memory (shmcomm). 
+Beware, this needs the Quest-V SDK and also the shmcomm library functionality for it to run, which can only be obtained by contacting Dr. Rich West.
 
 ### Usage
 1. Install the SDK and update quest(make sure proc_creat is in the new quest build), run the following commands to run a joint quest and yocto system in the SDK:
