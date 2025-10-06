@@ -1,4 +1,5 @@
 # Direct Quest Loader
+Done as a part of research under Dr. Rich West in Boston University.
 # Quest Binary Loader details
 This loads an ELF Binary of a guest operating system (Quest) onto that system using Linux, using shared memory (shmcomm). 
 Beware, this needs the Quest-V SDK and also the shmcomm library functionality for it to run, which can only be obtained by contacting Dr. Rich West.
